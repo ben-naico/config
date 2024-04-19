@@ -1,6 +1,6 @@
-  #SERVER CONFIG
-  server:
-    port: 8090
+#SERVER CONFIG
+server:
+  port: 8090
 # KEYCLOACK CONFIGURATIONS
 app:
   config:
