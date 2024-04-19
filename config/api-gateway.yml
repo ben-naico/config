@@ -2,8 +2,8 @@
 app:
   config:
     keycloak:
-      url: http://localhost:8080/auth
-      realm: pms-client
+      url: http://localhost:8080
+      realm: pms
       client-secret: oUVnjjhjlOYoCxb2DlrhHFxXL7JKgNUW
       client-id: pms-client
 
