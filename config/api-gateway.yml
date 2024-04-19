@@ -1,11 +1,11 @@
-# # KEYCLOACK CONFIGURATIONS
-# app:
-#   config:
-#     keycloak:
-#       url: http://localhost:8080/auth
-#       realm: auth-pms
-#       client-secret: AlyIms8Og3ifHPKorjUS1brlV9XUuWJc
-#       client-id: greendotcare-pms-client
+# KEYCLOACK CONFIGURATIONS
+app:
+  config:
+    keycloak:
+      url: http://localhost:8080/auth
+      realm: mwlosek-realm
+      client-secret: 8dd31028-78f8-42c3-b8d0-8ae39cab6cc7
+      client-id: test-client
 
 # # API SECURITY WITH KEYCLOAK PROVIDER
 # spring:
