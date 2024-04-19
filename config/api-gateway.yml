@@ -1,3 +1,6 @@
+  #SERVER CONFIG
+  server:
+    port: 8090
 # KEYCLOACK CONFIGURATIONS
 app:
   config:
@@ -31,9 +34,7 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: ${app.config.keycloak.url}/realms/${app.config.keycloak.realm}/protocol/openid-connect/certs
-  #SERVER CONFIG
-  server:
-    port: 8090
+
 
   #EUREKA CLIENT CONFIG
   eureka:
