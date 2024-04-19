@@ -9,16 +9,7 @@ app:
       realm: pms
       client-secret: oUVnjjhjlOYoCxb2DlrhHFxXL7JKgNUW
       client-id: pms-client
-#EUREKA CLIENT CONFIG
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8093/eureka/
-    fetch-registry: true
-    register-with-eureka: true
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
+
 # API SECURITY WITH KEYCLOAK PROVIDER
 spring:
   security:
@@ -43,7 +34,16 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: ${app.config.keycloak.url}/realms/${app.config.keycloak.realm}/protocol/openid-connect/certs
-
+#EUREKA CLIENT CONFIG
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8093/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
 
 
 
