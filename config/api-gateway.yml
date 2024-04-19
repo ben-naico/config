@@ -3,9 +3,9 @@ app:
   config:
     keycloak:
       url: http://localhost:8080/auth
-      realm: mwlosek-realm
-      client-secret: 8dd31028-78f8-42c3-b8d0-8ae39cab6cc7
-      client-id: test-client
+      realm: pms-client
+      client-secret: oUVnjjhjlOYoCxb2DlrhHFxXL7JKgNUW
+      client-id: pms-client
 
 # # API SECURITY WITH KEYCLOAK PROVIDER
 # spring:
